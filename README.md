@@ -29,8 +29,9 @@ Python script builds the star schema data warehouse from scratch and completes t
    1. sql_server_connection.py
    2. data_extraction.py
    3. create_dimensions.py
-   4. dimensions_to_sql_server.py
-   5. create_fact_table.py
+   4. dimensions_to_sql_server.py - to load the files into the Dimensions Table
+   5. create_fact_table.py    - to load the files into Fact Table
+   6. combined-df_to_table.py - to load the files into staging table
 
 Below is the finished star schema design once the data is loaded into PostgreSQL:
 
